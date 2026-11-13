@@ -30,16 +30,6 @@ Before starting this lab, ensure you have the following:
 - Permission to create and manage Azure resources.
 - Access to a Windows Server VM image.
 
-<h2>Configuration Steps</h2>
-
-- Step 1. Create a Resource Group.
-- Step 2. Create A Virtual Network(VNet).
-- Step 3. Deploy a Virtual Machine(VM) for the Domain Controller(DC).
-- Step 4. Configure the DCs Network Interface Controller(NIC) with a Static Private IP Address.
-- Step 5. Install Active Directory Domain Services(AD DS).
-- Step 6. Verify the Successful Installation of AD DS.
-- Step 7. Configure and Verify DNS Functionality.
-
 ## Configuration Steps
 
 - [Step 1: Create an Azure Resource Group](#step-1-create-an-azure-resource-group)
