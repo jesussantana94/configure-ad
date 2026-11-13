@@ -33,13 +33,25 @@ Before starting this lab, ensure you have the following:
 <h2>Configuration Steps</h2>
 
 - Step 1. Create a Resource Group.
-- Step 2. Create A Virtual Network.
-- Step 3. Create a Virtual Machine(VM) for your Domain Controller(DC).
-- Step 4. Set the DCs Network Interface Controller(NIC) private IP address to "Static."
-- Step 5. Set up Active Directory Domain Services(AD DS).
-- Step 6. Confirmation of Successful Installation for AD DS.
+- Step 2. Create A Virtual Network(VNet).
+- Step 3. Deploy a Virtual Machine(VM) for the Domain Controller(DC).
+- Step 4. Configure the DCs Network Interface Controller(NIC) with a Static Private IP Address.
+- Step 5. Install Active Directory Domain Services(AD DS).
+- Step 6. Verify the Successful Installation of AD DS.
+- Step 7. Configure and Verify DNS Functionality.
 
-<h1> Step 1</h1>
+## Configuration Steps
+
+- [Step 1: Create an Azure Resource Group](#step-1-create-an-azure-resource-group)
+- [Step 2: Create a Virtual Network](#step-2-create-a-virtual-network)
+- [Step 3: Deploy a Domain Controller VM](#step-3-deploy-a-domain-controller-vm)
+- [Step 4: Configure a Static Private IP](#step-4-configure-a-static-private-ip)
+- [Step 5: Install Active Directory Domain Services](#step-5-install-active-directory-domain-services)
+- [Step 6: Verify AD DS Installation](#step-6-verify-ad-ds-installation)
+- [Step 7: Configure and Verify DNS](#step-7-configure-and-verify-dns)
+
+## Step 1: Create an Azure Resource Group
+<h1> Step 1: Create an Azure Resource Group </h1>
 
 - At the top of the home screen, there should be a search bar; type “resource group”. Click on "Resource Group.”
 
