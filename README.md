@@ -56,7 +56,7 @@ Before starting this lab, ensure you have the following:
 - [Screenshot 11: DC Network Interface Controller(NIC) settings](#screenshot-11-dc-network-interface-controllernic-settings)
 - [Screenshot 12: Configure Network Settings](#screenshot-12-configure-network-settings)
 - [Screenshot 13: Acquire DC Public IP](#screenshot-13-acquire-dc-public-ip)
-- [Screenshot 14-17: Remote Desktop Connection](#screenshot-14-17-remote-desktop-connection)
+- [Screenshot 14-17: Remote Desktop Connection (RDP)](#screenshot-14-17-remote-desktop-connection-rdp)
 - [Screenshot 18: Server Manager](#screenshot-18-server-manager)
 - [Screenshot 19-22: Add roles and features](#screenshot-19-22-add-roles-and-features)
 - [Screenshot 23: Promote Server to a Domain Controller](#screenshot-23-promote-server-to-a-domain-controller)
@@ -143,7 +143,7 @@ Before starting this lab, ensure you have the following:
 
 <img width="2107" height="868" alt="Step 6" src="https://github.com/user-attachments/assets/3cc03a8e-77f3-40d9-898f-dd6afe74c684" />
 
-### Screenshot 14-17: Remote Desktop Connection 
+### Screenshot 14-17: Remote Desktop Connection (RDP)
 - Open your RDC application from your computer and click on "show options." Enter your DCs public IP and username. Click "Connect" and it will prompt you to enter the password of the DC and click "Ok." Then click "Yes" on the next prompt.
 
 <img width="416" height="269" alt="Step 6 2" src="https://github.com/user-attachments/assets/1bb6377a-300b-412a-992d-35977e27eeed" />
