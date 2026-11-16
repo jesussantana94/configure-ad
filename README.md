@@ -43,52 +43,35 @@ Before starting this lab, ensure you have the following:
 
 ## Screenshot Index
 
-## Screenshot Index
-
-### Step 1: Create an Azure Resource Group
-- [Screenshot 1: Navigating to Resource Groups](#screenshot-1-navigating-to-resource-groups)
+- [Screenshot 1: Navigating to Resource Group(s)](#screenshot-1-navigating-to-resource-groups)
 - [Screenshot 2: Creating a Resource Group](#screenshot-2-creating-a-resource-group)
 - [Screenshot 3: Configuring the Resource Group](#screenshot-3-configuring-the-resource-group)
-
-### Step 2: Create a Virtual Network (VNET)
 - [Screenshot 4: Navigating to Virtual Network](#screenshot-4-navigating-to-virtual-network)
-- [Screenshot 5: Configuring the VNET](#screenshot-5-configuring-the-vnet)
-
-### Step 3: Deploy a Domain Controller VM
+- [Screenshot 5: Configuring VNET](#screenshot-5-configuring-vnet)
 - [Screenshot 6: Navigating to Virtual Machines](#screenshot-6-navigating-to-virtual-machines)
-- [Screenshot 7: Configuring the VM](#screenshot-7-configuring-the-vm)
-- [Screenshot 8: VM Username and Password](#screenshot-8-vm-username-and-password)
-- [Screenshot 9: VM Networking Configuration](#screenshot-9-vm-networking-configuration)
-
-### Step 4: Configure a Static Private IP
+- [Screenshot 7: Configuring VM](#screenshot-7-configuring-vm)
+- [Screenshot 8: VM Username/Password](#screenshot-8-vm-usernamepassword)
+- [Screenshot 9: VM Networking](#screenshot-9-vm-networking)
 - [Screenshot 10: DC Network Settings](#screenshot-10-dc-network-settings)
-- [Screenshot 11: DC Network Interface Settings](#screenshot-11-dc-network-interface-settings)
+- [Screenshot 11: DC NIC / ipconfig1](#screenshot-11-dc-nic-ipconfig1)
 - [Screenshot 12: Configure Static Private IP](#screenshot-12-configure-static-private-ip)
-
-### Step 5: Open Remote Desktop Connection
 - [Screenshot 13: Acquire DC Public IP](#screenshot-13-acquire-dc-public-ip)
-- [Screenshot 14: Remote Desktop Connection Settings](#screenshot-14-remote-desktop-connection-settings)
-- [Screenshot 15: Remote Desktop Credentials](#screenshot-15-remote-desktop-credentials)
-- [Screenshot 16: Remote Desktop Security Prompt](#screenshot-16-remote-desktop-security-prompt)
-- [Screenshot 17: Successful Remote Desktop Connection](#screenshot-17-successful-remote-desktop-connection)
-
-### Step 6: Install Active Directory Domain Services (AD DS)
+- [Screenshot 14: RDP Settings](#screenshot-14-rdp-settings)
+- [Screenshot 15: RDP Credentials](#screenshot-15-rdp-credentials)
+- [Screenshot 16: RDP Security Prompt](#screenshot-16-rdp-security-prompt)
+- [Screenshot 17: Successful RDP Connection](#screenshot-17-successful-rdp-connection)
 - [Screenshot 18: Server Manager](#screenshot-18-server-manager)
-- [Screenshot 19: Add AD DS Server Role](#screenshot-19-add-ad-ds-server-role)
-- [Screenshot 20: Add Required Features](#screenshot-20-add-required-features)
+- [Screenshot 19: Add AD DS Role](#screenshot-19-add-ad-ds-role)
+- [Screenshot 20: Add Features](#screenshot-20-add-features)
 - [Screenshot 21: AD DS Installation Confirmation](#screenshot-21-ad-ds-installation-confirmation)
 - [Screenshot 22: AD DS Installation Complete](#screenshot-22-ad-ds-installation-complete)
-
-### Step 7: Configure Active Directory Domain Services
-- [Screenshot 23: Promote Server to Domain Controller](#screenshot-23-promote-server-to-domain-controller)
-- [Screenshot 24: Deployment Configuration](#screenshot-24-deployment-configuration)
+- [Screenshot 23: Promote Server to DC](#screenshot-23-promote-server-to-dc)
+- [Screenshot 24: New Forest Deployment Config](#screenshot-24-new-forest-deployment-config)
 - [Screenshot 25: Domain Controller Options](#screenshot-25-domain-controller-options)
 - [Screenshot 26: Prerequisites Check](#screenshot-26-prerequisites-check)
-
-### Step 8: Verify Active Directory Installation
-- [Screenshot 27: Remote Desktop Connection](#screenshot-27-remote-desktop-connection)
-- [Screenshot 28: Open Active Directory Users and Computers](#screenshot-28-open-active-directory-users-and-computers)
-- [Screenshot 29: Active Directory Verification](#screenshot-29-active-directory-verification)
+- [Screenshot 27: RDP Reconnect](#screenshot-27-rdp-reconnect)
+- [Screenshot 28: Open ADUC](#screenshot-28-open-aduc)
+- [Screenshot 29: ADUC Verify](#screenshot-29-aduc-verify)
 
 ## Step 1: Create an Azure Resource Group
 
