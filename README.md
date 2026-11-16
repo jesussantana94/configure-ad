@@ -43,15 +43,15 @@ Before starting this lab, ensure you have the following:
 
 ## Screenshot Index
 
-- [Screenshot 1: Navigating to Resource Group(s)](#screenshot-1-navigating-to-resource-groups)
+- [Screenshot 1: Navigating to Resource Groups](#screenshot-1-navigating-to-resource-groups)
 - [Screenshot 2: Creating a Resource Group](#screenshot-2-creating-a-resource-group)
 - [Screenshot 3: Configuring the Resource Group](#screenshot-3-configuring-the-resource-group)
-- [Screenshot 4: Navigating to Virtual Network](#screenshot-4-navigating-to-virtual-network)
+- [Screenshot 4: Navigating to Virtual Network (VNET)](#screenshot-4-navigating-to-virtual-network-vnet)
 - [Screenshot 5: Configuring VNET](#screenshot-5-configuring-vnet)
-- [Screenshot 6: Navigating to Virtual Machines](#screenshot-6-navigating-to-virtual-machines)
+- [Screenshot 6: Navigating to Virtual Machines (VM)](#screenshot-6-navigating-to-virtual-machines-vm)
 - [Screenshot 7: Configuring VM](#screenshot-7-configuring-vm)
-- [Screenshot 8: VM Username/Password](#screenshot-8-vm-usernamepassword)
-- [Screenshot 9: VM Networking](#screenshot-9-vm-networking)
+- [Screenshot 8: VM Username and Password](#screenshot-8-vm-username-and-password)
+- [Screenshot 9: Networking Section of VM](#screenshot-9-networking-section-of-vm)
 - [Screenshot 10: DC Network Settings](#screenshot-10-dc-network-settings)
 - [Screenshot 11: DC NIC / ipconfig1](#screenshot-11-dc-nic-ipconfig1)
 - [Screenshot 12: Configure Static Private IP](#screenshot-12-configure-static-private-ip)
@@ -75,7 +75,7 @@ Before starting this lab, ensure you have the following:
 
 ## Step 1: Create an Azure Resource Group
 
-### Screenshot 1: Navigating to Resource Group
+### Screenshot 1: Navigating to Resource Groups
 - From the Azure portal homepage, locate the search bar at the top of the screen; type “resource group”. And select: "Resource Group.”
 
 <img width="671" height="640" alt="Step 1" src="https://github.com/user-attachments/assets/0f547bb8-df10-407b-8e1a-886d1d941051" />
