@@ -38,8 +38,9 @@ Before starting this lab, ensure you have the following:
 - [Step 4: Configure a Static Private IP](#step-4-configure-a-static-private-ip)
 - [Step 5: Open Remote Desktop Connection (RDC)](#step-5-open-remote-desktop-connection-rdc)
 - [Step 6: Install Active Directory Domain Services (AD DS)](#step-6-install-active-directory-domain-services-ad-ds)
-- [Step 7: Verify AD DS Installation](#step-6-verify-ad-ds-installation)
-- [Step 8: Configure and Verify DNS](#step-7-configure-and-verify-dns)
+- [Step 7: Configure Active Directory Domain Services](#step-7-configure-active-directory-domain-services)
+- [Step 8: Verify Active Directory (AD) installation](#step-8-verify-active-directory-ad-installation)
+
 
 ## Step 1: Create an Azure Resource Group
 
@@ -125,7 +126,67 @@ Before starting this lab, ensure you have the following:
 <img width="463" height="440" alt="Screenshot 2026-11-13 124207" src="https://github.com/user-attachments/assets/378ebac0-32cc-4a27-9b83-83ca17ad4d9e" />
 <img width="408" height="469" alt="Step 6 3" src="https://github.com/user-attachments/assets/33b342a7-fc38-465e-a2e0-8b1c5e2b099e" />
 
+
+
 ## Step 6: Install Active Directory Domain Services (AD DS)
+
+### Screenshot 18: Server Manager
+- Server Manager should automatically open when you successfully log in. Click on "Add roles and features."
+
+<img width="1881" height="1187" alt="Step 8" src="https://github.com/user-attachments/assets/566e58d1-e5b2-40a3-8291-e9e6582a0a61" />
+
+### Screenshot 19-22: Add roles and features
+- Click next until you reach "Server roles" and select the box for "Active Directory Domain Services", click on "Add Features", then click "Next" to go to the "Confirmation" section and click "Install." When it says "Installation Succeeded", click "Close"
+
+<img width="800" height="750" alt="Step 8 1" src="https://github.com/user-attachments/assets/27ca4357-667a-49b7-bfd1-58ab2dd64859" />
+<img width="800" height="600" alt="Step 8 2" src="https://github.com/user-attachments/assets/137b4f66-1dfd-47f2-b495-b52396bca366" />
+<img width="800" height="600" alt="Step 8 3" src="https://github.com/user-attachments/assets/3fa85392-3d93-4848-8cce-438c427644ce" />
+<img width="796" height="581" alt="Screenshot 2026-11-16 110336" src="https://github.com/user-attachments/assets/e93c105b-7c00-4176-94f6-c1078a0cc20d" />
+
+
+
+## Step 7: Configure Active Directory Domain Services
+
+### Screenshot 23: Promote Server to Domain Controller 
+- In Server Manager, click on the flag with a yellow triangle. Then click on "Promote this server to a domain controller."
+
+<img width="667" height="522" alt="Step 8 4" src="https://github.com/user-attachments/assets/c91065ec-474e-46d7-82d7-29dc50453c95" />
+
+### Screenshot 24: Deployment Configuration
+- Select Add a new forest and type a root domain name and click next to continue.
+
+<img width="926" height="754" alt="Step 8 5" src="https://github.com/user-attachments/assets/aff50694-b8a6-4c44-b62a-f426659b0859" />
+
+### Screenshot 25: Domain Controller Options
+- Set a password and click "Next" to continue. Note: Keep on clicking on "Next" until you reach the "Prerequisites Check" section
+
+<img width="921" height="743" alt="Step 8 6" src="https://github.com/user-attachments/assets/2f1caafb-de18-4219-8eec-3a37783c022a" />
+
+### Screenshot 26: Prerequisites Check
+- Click "Install." When it finishes installing it will automatically sign you out.
+
+<img width="773" height="569" alt="Screenshot 2026-11-16 111206" src="https://github.com/user-attachments/assets/eabfe61f-e584-42a5-8156-28528cc55d7c" />
+
+## Step 8: Verify Active Directory (AD) installation
+
+### Screenshot 27: Remote Desktop 
+- Open Remote Desktop and enter the DCs public IP address again. For the User Name, you have to enter the domain name, forward slash \ , and your username. When it prompts to enter a password, use the same user password not the password from Step 8/Screenshot 25. 
+
+<img width="424" height="491" alt="Step 8 7" src="https://github.com/user-attachments/assets/3a086f1f-c11a-428d-88b8-e2d4bf524599" />
+
+### Screenshot 28: Open Active Directory Users and Computers
+- From the Taskbar type Active Directory and click on "Active Directory Users and Computers."
+
+<img width="1308" height="879" alt="Screenshot 2026-11-12 155126" src="https://github.com/user-attachments/assets/72a3bf57-f865-4d04-b1a4-4cecb39f2534" />
+
+### Screenshot 29: Active Directory Users and Computers
+- You have successfully deployed Active Directory
+
+<img width="1136" height="787" alt="Screenshot 2026-11-12 155220" src="https://github.com/user-attachments/assets/081f2a8c-7924-497f-bed8-0034d98cdf95" />
+
+
+
+
 
 
 
