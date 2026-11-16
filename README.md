@@ -41,6 +41,16 @@ Before starting this lab, ensure you have the following:
 - [Step 7: Configure Active Directory Domain Services](#step-7-configure-active-directory-domain-services)
 - [Step 8: Verify Active Directory (AD) installation](#step-8-verify-active-directory-ad-installation)
 
+## Screenshot Index
+
+- [Screenshot 1–3: Create an Azure Resource Group](#screenshot-1-3-create-an-azure-resource-group)
+- [Screenshot 4–5: Create a Virtual Network (VNET)](#screenshot-4-5-create-a-virtual-network-vnet)
+- [Screenshot 6–9: Deploy a Domain Controller VM](#screenshot-6-9-deploy-a-domain-controller-vm)
+- [Screenshot 10–12: Configure a Static Private IP](#screenshot-10-12-configure-a-static-private-ip)
+- [Screenshot 13–17: Open Remote Desktop Connection](#screenshot-13-17-open-remote-desktop-connection)
+- [Screenshot 18–22: Install Active Directory Domain Services](#screenshot-18-22-install-active-directory-domain-services)
+- [Screenshot 23–26: Configure Active Directory Domain Services](#screenshot-23-26-configure-active-directory-domain-services)
+- [Screenshot 27–29: Verify Active Directory Installation](#screenshot-27-29-verify-active-directory-installation)
 
 ## Step 1: Create an Azure Resource Group
 
